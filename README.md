@@ -12,42 +12,42 @@ You need to submit a markdown file with the solution to the following challenges
 ## Challenges
 ### Challenge 1
 One player rolls two dices. Describe the measurable space and the random variable for:
-* A. The values that the player obtains.
-* B. The sum of the values obtained.
-* C. The maximum value obtained after rolling both dices.
+* A. The values that the player obtains. measurable space= 36 values from combining the values of 2 dices {1:1}....{6:6}
+* B. The sum of the values obtained. sum values= [2,3,4,5,6,7,8,9,10,11,12]
+* C. The maximum value obtained after rolling both dices. max value = can take values from 1 to 6
 
 Describe the following events:
-* Case A: Both values are greater than 5.
-* Case B: The sum of values is even.
-* Case C: The maximum is the value of both rolls.
+* Case A: Both values are greater than 5. {6,6} only this case. prob= 1/36
+* Case B: The sum of values is even. 54% of cases 
+* Case C: The maximum is the value of both rolls. prob=6/36; 1/6 max(x,y)=X=Y
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
-* A. The number of figures he picks.
-* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
-* C. The number of hearts or spades he picks.
+* A. The number of figures he picks. measurable space=52 cards; cards picked are 2, can be 0 face cards, 1 face card or 2 face cards
+* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15. measurable space= {4,5,6,7,8?9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,30}
+* C. The number of hearts or spades he picks. measurable space = {0,1,2}
 
 Describe the following events:
-* Case A: The number of figures in the cards the player picked is two.
-* Case B: The sum of card values is 17.
-* Case C: The value of both cards is less than 8.
+* Case A: The number of figures in the cards the player picked is two. P(X=2)=(12/52*11/52)=C2/52
+* Case B: The sum of card values is 17. {10:7,9:8,J:7;Q:7,K:7,A:2}
+* Case C: The value of both cards is less than 8. {2:2,2:3,2:4,2:6,2:7,3:2,3:3,3:4,3:5,3:6,3:7...}
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
-* A. The score of player A.
-* B. The greatest score.
-* C. The earnings of player A if the game rules state that:  
+* A. The score of player A.  {1,2,3,4,5,6}
+* B. The greatest score. greatest value that can get the player is 6
+* C. The earnings of player A if the game rules state that:   { -1 if we loses, 1 if he wins}
 "The player with the greatest score gets a coin from the other player.".
-* D. The earnings of player A if the game rules state that:  
+* D. The earnings of player A if the game rules state that:  {-5,5}
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
 
 Describe the following events:
-* Case A: The score of player A is 2.
-* Case B: The greatest score is lower or equal than 2.
+* Case A: The score of player A is 2. p=1/6
+* Case B: The greatest score is lower or equal than 2. 2/6=1/3
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
-  * Player A wins at least 4 coins.
-  * Player A loses more than 2 coins.
-  * Player A neither wins nor loses coins.
+  * Player A wins at least 4 coins. {4,5}
+  * Player A loses more than 2 coins. 
+  * Player A neither wins nor loses coins. it happens when both players have the same combination= 6/36=1/6
 
 ## Bonus challenges
 ### Bonus Challenge 1
